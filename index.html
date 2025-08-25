@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Hub</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; background-color: #f4f7f9; color: #333; margin: 0; padding: 2rem; }
+        .container { max-width: 900px; margin: 0 auto; background-color: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        header { text-align: center; margin-bottom: 2.5rem; border-bottom: 1px solid #e0e0e0; padding-bottom: 1rem; }
+        h1 { color: #2c3e50; font-size: 2.5rem; }
+        p.subtitle { color: #7f8c8d; font-size: 1.1rem; }
+        .nav-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; text-align: center; }
+        .nav-card { border: 1px solid #e0e0e0; border-radius: 8px; padding: 2rem; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .nav-card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+        .nav-card h2 { margin-top: 0; color: #3498db; }
+        .nav-card p { color: #555; }
+        .nav-card a { text-decoration: none; color: inherit; display: block; height: 100%; }
+        footer { text-align: center; margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e0e0e0; font-size: 0.9rem; color: #7f8c8d; }
+        footer a { color: #3498db; text-decoration: none; margin: 0 10px; }
+        footer a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Project Deliverable Hub</h1>
+            <p class="subtitle">An Exploration of God, Consciousness, and Technology</p>
+        </header>
+
+        <main>
+            <div class="nav-grid">
+                <a href="./docs/overview.md" class="nav-card-link">
+                    <div class="nav-card">
+                        <h2>Documentation</h2>
+                        <p>Project overview, requirements, and user flows.</p>
+                    </div>
+                </a>
+                <a href="./wireframes/index.html" class="nav-card-link">
+                    <div class="nav-card">
+                        <h2>Wireframes</h2>
+                        <p>Low-fidelity layouts and structural plans.</p>
+                    </div>
+                </a>
+                <a href="./prototype/index.html" class="nav-card-link">
+                    <div class="nav-card">
+                        <h2>Interactive Prototype</h2>
+                        <p>A clickable, data-driven prototype of the final product.</p>
+                    </div>
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <p>
+                <a href="./docs/overview.md">View Documentation</a> |
+                <a href="./wireframes/index.html">View Wireframe</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
