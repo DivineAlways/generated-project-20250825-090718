@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wireframe - Home Page</title>
+    <style>
+        body { font-family: sans-serif; color: #333; margin: 0; padding: 0; background: #f9f9f9; }
+        .main-container { display: flex; }
+        .wireframe-view { flex-grow: 1; padding: 20px; border-right: 2px solid #ccc; }
+        .notes-view { width: 300px; padding: 20px; background: #f0f0f0; font-size: 14px; line-height: 1.5; }
+        .box { border: 2px solid #666; background: #e0e0e0; text-align: center; padding: 10px; margin-bottom: 15px; color: #333; }
+        .header { height: 60px; line-height: 60px; font-weight: bold; }
+        .intro-text { height: 100px; padding: 20px; text-align: left; }
+        .card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .card { height: 150px; line-height: 20px; display: flex; flex-direction: column; justify-content: center; }
+        h2 { margin: 0; font-size: 1em; text-transform: uppercase; letter-spacing: 1px; }
+        p { margin: 5px 0 0 0; color: #555; }
+        .footer { height: 40px; line-height: 40px; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="wireframe-view">
+            <div class="box header">[Header: Site Title]</div>
+            <div class="box intro-text">
+                <h2>[Page Title: God, Consciousness, ...]</h2>
+                <p>[Short introductory paragraph]</p>
+            </div>
+            <div class="card-grid">
+                <div class="box card">[Topic Card 1]<br/>(Theological Perspectives)</div>
+                <div class="box card">[Topic Card 2]<br/>(Historical Context)</div>
+                <div class="box card">[Topic Card 3]<br/>(Cultural Interpretations)</div>
+                <div class="box card">[Topic Card 4]<br/>(Contemporary Discussions)</div>
+            </div>
+            <div class="box footer">[Footer Content]</div>
+        </div>
+        <div class="notes-view">
+            <h2>Notes: Home Page</h2>
+            <ul>
+                <li><strong>Header:</strong> Consistent across all pages. Contains the main title of the exploration.</li>
+                <li><strong>Intro Text:</strong> Provides immediate context for the user about the site's purpose.</li>
+                <li><strong>Card Grid:</strong> The primary navigation method. Each card links to a detailed topic page.</li>
+                <li><strong>Layout:</strong> The grid should be responsive, stacking to a single column on smaller screens.</li>
+                <li><strong>Interaction:</strong> Clicking a card will navigate the user to the topic detail view.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
